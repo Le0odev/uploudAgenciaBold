@@ -1,0 +1,544 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.center{
+    display: flex;
+    max-width: 1100px;
+    padding: 0 2%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+section.main{
+    position: fix;
+    background-image: url('images/bg.svg');
+    background-position: center;
+    background-size: cover;
+    min-height: 700px;
+    padding: 20px 0 80px 0;
+}
+
+.menu{
+    display: flex;
+    width: 100%;
+    position: fixe  ;
+}
+
+.logo-menu{width: 50%;}
+
+.items-menu{
+    width: 50%;
+    text-align: right;
+}
+
+.items-menu a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px
+}
+
+.items-menu a:hover{
+    border-bottom: 2px solid #FFDD33;
+}
+
+.items-menu a.contect-btn{
+    background-color: #0F3FD3;
+    padding: 10px 10px;
+    border-radius: 10px;
+
+}
+
+.items-menu a.contect-btn:hover{
+    border: 0;
+
+}
+
+.mockup{display: block; width: 100%;color: white;text-align: center;padding-top: 100px;}
+
+.mockup h1{font-size: 50px;}
+
+.mockup img{max-width: 100%;}
+
+section.marcas{padding: 100px 0;}
+
+section.marcas img{
+    width: calc(100% / 5);
+}
+
+
+section.porque-nos{
+    padding: 40px 0;
+    background-color: #FBFCFE;
+}
+
+
+
+section.porque-nos > .center > h2{
+    font-size: 64px;
+    text-align: center;
+    width: 100%;
+}
+
+section.porque-nos > .center{
+    max-width: 1280px;
+}
+
+section.porque-nos > .center > p{
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+    color: #ccc;
+}
+
+.diferenciais{
+    display: flex;
+    margin-top: 50px;
+}
+
+.box-diferenciais{
+    box-shadow: 0px 20px 40px #2426721C;
+    width: 31%;
+    margin-right: 2%;
+    padding:10 20px;
+    border-radius: 10px;
+    
+}
+
+.box-diferenciais h3{
+    font-size: 28px;
+    margin: 20px 0;
+    color: black;
+}
+
+.box-diferenciais p{
+    color: #7E92AC;
+    font-size: 13px;
+    margin-bottom: 20px;
+
+}
+
+section.contact{
+    background-image: url('images/BANNER\ IMG.svg ');
+    background-position: center  ;
+    background-size: cover;
+    min-height: 200px;
+    padding: 20px 10px;
+    text-align: center;
+    color: white ;
+    margin-top: 0px ;
+
+}
+
+section.contact h2,
+section.contact h4{
+    font-weight: normal;
+    margin: 15px 0;
+}
+
+section.contact h2{
+    font-size: 40px;
+}
+
+section.contact a{
+    display: inline-block;
+    padding: 12px 18px;
+    font-weight: bold;
+    font-size: 17px;
+    text-decoration: none;
+    color: #0F3FD3;
+    background: #FFDD33;
+    border-radius: 7px;
+    
+}
+
+
+
+section.contact h2,
+section.contact h4{
+    font-weight: normal;
+    margin: 15px 0;
+}
+
+section.contact h2{
+    font-size: 40px;
+}
+
+section.contact a{
+    display: inline-block;
+    padding: 12px 18px;
+    font-weight: bold;
+    font-size: 17px;
+    text-decoration: none;
+    color: #0F3FD3;
+    background: #FFDD33;
+    border-radius: 7px;
+    
+}
+
+section.beneficios{
+    padding: 50px 0;
+}
+
+.lista-beneficios{
+    width: 35%;
+    margin-top: 30px;
+}
+
+.lista-beneficios h1{
+    color: black;
+    font-size: 35px;
+    margin-left: 17px;
+    
+    
+}
+
+.lista-beneficios p{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    color: #7E92AC;
+}
+
+.lista-beneficios span{
+    display: inline-block;
+    
+    width: calc(100% - 70px);
+}
+
+.lista-beneficios img{
+    display: inline-block;
+    vertical-align: middle;
+    width: 70px;
+        
+    
+}
+
+.lista-beneficios a{
+    display: inline-block;
+    padding: 12px 18px;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #255AFF;
+    border-radius: 7px;
+    vertical-align: middle;
+    margin-left: 21;
+}
+
+.img-beneficios{
+    width: 65%;
+    align-items: baseline;
+    padding-left: 50px;
+    
+
+
+}
+
+.img-beneficios img{max-width: 100%;}
+
+
+section.depoimentos{
+    background-color: #FBFCFE ;
+    padding: 40px 0;
+    
+}
+
+section.depoimentos > h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.container-slider{
+    overflow: hidden;
+    padding: 30px 0;
+    
+
+}
+
+.container-slider-single{
+    float: left;
+    background-color: white;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0px 25px 45px #2426721C;
+    margin-left: 25px;
+}
+.container-slider-single p{
+    margin: 15px 0;
+    font-size: 14px;
+    color: #7E92AC; 
+}
+
+
+
+.slick-slider{
+    padding: 20px;
+}
+
+.slick-list{
+    margin-left: -27px;
+}
+
+
+/****SLICK SLIDER****/
+
+.slick-dotted ul{
+    display: block;
+	list-style-type: none;
+	text-align: center;
+	position: relative;
+	top:30px;
+}
+
+.slick-dotted li{
+	display: inline-block;
+	margin: 20 7px;
+}
+
+.slick-dotted button:focus{
+	outline: 0;
+}
+
+.slick-dotted li button{
+	width: 16px;
+	height: 16px;
+	border-radius: 8px;
+	color: #d8d8d8;
+	border-width: 0;
+	background: #d8d8d8;
+	opacity: 1;
+	cursor: pointer;
+}
+
+li.slick-active button{
+	background: #255AFF;
+	color: #255AFF;
+}
+
+.slick-slide:focus { outline: none; }
+
+/* FIM SLICK SLDIER*/
+
+section.form-ctt{
+    padding: 40px 0;
+    text-align: center;
+
+}
+
+section.form-ctt h1{
+    font-size: 50px;
+}
+section.form-ctt form{
+    max-width: 80%;
+}
+
+section.form-ctt form{
+    width: 80%;
+    margin-left: 80px;
+    
+}
+
+.form-ctt textarea{
+    width: 100%;
+    height: 120px;
+    background: #FCFDFF;
+    margin: 10px 0;
+    border: 1px solid #C3CCE8;
+    border-radius: 10px;
+    opacity: 1;
+    padding: 10px;
+    resize: none;
+}
+.form-ctt input[type=submit]{
+    width: 50%;
+    border-radius: 10px;
+    color: white;
+    background-color:#255AFF;
+    height: 50px;
+    border:0 solid;
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+    cursor: pointer;
+    
+    
+    
+}
+
+
+.form-ctt input[type=text],
+.form-ctt input[type=email]
+{
+    width: 100%;
+    height: 50px;
+    background: #FCFDFF;
+    margin: 10px 0;
+    border: 1px solid #C3CCE8;
+    border-radius: 10px;
+    opacity: 1;
+    padding: 10px;
+}
+
+footer{
+    text-align: center;
+    padding: 10px 0;
+    background-color:  #255AFF;
+    color: white;
+    
+}
+footer .items-menu{
+    margin-left: -100px;
+}
+.texto-ftt{
+    
+    padding: 8px 0;
+    width: 50%;
+}
+
+.items-menu-mobile{
+    width: 50%;
+    display: none;
+    text-align: right;
+    
+}
+
+
+.items-menu-mobile i{
+    color: white;
+    font-size: 23px;
+    cursor: pointer;
+    position: relative;
+    top: 15px;
+    
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+
+    .items-menu-mobile{
+        display: block;
+        
+    }
+    .menu-mobile{
+        
+        position: absolute;
+        transition: 1s;
+        left: 0;
+        top: 67px;
+        width: 100%;
+        padding: 1px 0;
+        background-color: white;
+        text-align: center;
+        opacity: 0;
+        
+       
+    }
+    
+    .show{
+        display: block;
+        opacity: 1;
+    }
+
+    .hide{
+        opacity: 0;
+    }
+
+    .menu-mobile a{
+        text-align: center;
+        display: block;
+        margin: 10px 0;
+        color: rgb(40,40,40);
+        text-decoration: none;
+        font-weight: bold;
+        padding: 8px;
+        border-bottom: 2px solid blue;
+        
+    }
+
+
+    section.main .items-menu{
+        display: none;
+    }
+
+
+    footer .items-menu{
+        width: 100%;
+        text-align: center;
+    }
+    footer .items-menu a{
+        margin: 10px;
+        display: block;
+        text-align: center ;
+        margin-left: 200px;
+    }
+
+    .texto-ftt{
+        width: 100%;
+        text-align: center;
+        padding: 8px 0;
+    }
+
+    section.form-ctt form{
+        max-width: 100%;
+    }
+    
+    section.form-ctt form{
+        width: 100%;
+        margin-left: 7
+        
+    }
+
+    .lista-beneficios, .img-beneficios{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .lista-beneficios a{
+        margin-left: 85px;
+    }
+    .img-beneficios img{
+        margin-left: -18px;
+    }
+    
+
+    .diferenciais{
+        flex-wrap: wrap;
+    }
+
+    .box-diferenciais{
+        margin-right: 0;
+        width: 100%;
+    }
+
+    section.marcas > .center{
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section.marcas img{
+        width: 100%;
+        max-width: 300px;
+    }
+    
+      
+        
+
+    
+}
+
+
+
+
